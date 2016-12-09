@@ -1,0 +1,10 @@
+[Unit]
+Description=Guest WLAN GUI Service
+After=create_guest_ap.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/guestwlan -- /etc/guestwlan.cfg
+
+[Install]
+WantedBy=guestwlan.target

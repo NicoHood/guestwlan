@@ -1,0 +1,14 @@
+[Unit]
+Description=Guest WLAN Key/QR Code Service
+Wants=sysinit.target
+Wants=create_guest_ap.service
+# Should run before create_guest_ap.service at startup but should also work with a running system
+#Before=create_guest_ap.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/wlanqrkeygen
+ExecStartPost=/usr/bin/systemctl try-reload-or-restart create_guest_ap.service
+
+[Install]
+WantedBy=guestwlan.target
