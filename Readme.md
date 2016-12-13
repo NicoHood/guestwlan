@@ -25,7 +25,7 @@ Guest-WLAN. Other distributions should also work, just install the required
 dependencies yourself.
 
 ### ArchLinux
-You can get the package [`guestwlan` from AUR](https://aur.archlinux.org/packages/bdisk/).
+You can get the package [guestwlan from AUR](https://aur.archlinux.org/packages/guestwlan/).
 Install the package via `makepkg -sri` or if you prefer [build in a clean chroot](https://wiki.archlinux.org/index.php/DeveloperWiki:Building_in_a_Clean_Chroot).
 You might also want to install some of the optional dependencies of the package.
 
