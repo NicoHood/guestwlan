@@ -1,4 +1,7 @@
 # Guest-WLAN
+
+![header](header.jpg)
+
 Easy & Secure Guest WLAN setup with QR code GUI and photodiashow.
 
 Guest-WLAN creates a WLAN access point for your guests with a new, secure
@@ -9,6 +12,10 @@ a basic photo diashow function as screensaver.
 This project was designed to run on a Raspberry Pi 3 along with the official
 touch display on ArchLinux for ARM. Porting it to other distributions or other
 hardware should be quite simple.
+
+You can use the QR codes on Android, IOs and Windows phone.
+
+![android_scan](android_scan.jpg)
 
 ## Installation
 Guest-WLAN is designed to run on ArchLinux ARM. Not only because it is a great
