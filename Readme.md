@@ -232,6 +232,9 @@ sudo systemctl enable fake-hwclock-save.timer
 
 ## Version History
 ```
+1.0.1 Release (13.12.2016)
+* Added pictures
+
 1.0.0 Release (24.11.2016)
 * Initial release of the software
 ```
